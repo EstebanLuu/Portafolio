@@ -10,11 +10,13 @@
     <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- <link rel="stylesheet" href="/particulas/plugins/particles/css/style.css" /> -->
     <link
       href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&family=Mukta:wght@200&family=Oswald:wght@300;400;500;600&family=Poppins:wght@200;300;400&display=swap"
       rel="stylesheet"
     />
-    <title>Portafolio</title>
+
+    <title>Esteban Luna Portafolio</title>
   </head>
 
   <body>
@@ -23,15 +25,28 @@
       <div class="container">
         <header>
           <div class="headerContainer">
-            <h1>{EL}</h1>
+            <h1>-/EL/-></h1>
             <div class="imagenContainer"></div>
             <nav id="nav" class="">
               <ul id="links">
-                <li><a href="#inicio" class="seleccionado">INICIO</a></li>
-                <li><a href="#sobreMi">SOBRE MI</a></li>
-                <li><a href="#habilidades">HABILIDADES</a></li>
-                <li><a href="#proyectos">PROYECTOS</a></li>
-                <li><a href="#contacto">CONTACTO</a></li>
+                <li>
+                  <a href="#inicio" class="seleccionado"onclick="seleccionar(this)">INICIO</a>
+                </li>
+                <li>
+                  <a href="#sobreMi" onclick="seleccionar(this)">SOBRE MI</a>
+                </li>
+                <li>
+                  <a href="#habilidades"onclick="seleccionar(this)">HABILIDADES</a>
+                </li>
+                <li>
+                  <a href="#tecnologías"onclick="seleccionar(this)">TECNOLOGÍAS</a>
+                </li>
+                <li>
+                  <a href="#proyectos" onclick="seleccionar(this)">PROYECTOS</a>
+                </li>
+                <li>
+                  <a href="#contacto"onclick="seleccionar(this)">CONTACTO</a>
+                </li>
               </ul>
             </nav>
             <!--ICONOS DEL MENU RESPONSIVE-->
@@ -86,15 +101,12 @@
           </div>
         </header>
         <div class="presentacion">
-          <p class="bienvenida">Bienvenidos</p>
-          <h2>Soy Esteban Luna full stack developer</h2>
-          <p class="descripcion">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis
-            minus iste eum! Qui recusandae illo alias? Quasi perspiciatis
-            voluptatum quae incidunt libero iste consequuntur doloremque
-            pariatur est id, quaerat quisquam?
-          </p>
-          <a href="#portafolio">Ir a portafolio</a>
+          <h2>
+            ¡ Hola, soy <span>Esteban Luna</span> !
+            <hr />
+            Full stack developer.
+          </h2>
+        </div>
         </div>
       </div>
     </section>
@@ -106,13 +118,26 @@
       </div>
       <div class="sobreMi">
         <p class="seccionTitulo">Sobre Mi</p>
-        <h2>Hola soy Esteban Luna</h2>
-        <h3>Full Stack Developer</h3>
+        <!-- <h2></h2>
+        <h3></h3> -->
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo facere
-          ducimus excepturi nemo! Quisquam autem expedita commodi ullam aut, nam
-          exercitationem sed saepe. Quos officiis magni quod, consectetur
-          commodi ad.
+          Mi nombre es Esteban Luna, soy de Argentina y tengo 21 años.
+          <br />
+          Full Stack developer en proceso de graduación, apasionado por lo que
+          hago.
+          <br />
+          Me encanta aprender tecnologías y lengujes nuevos de manera constante,
+          siempre con mi mate en la mano 🧉.
+          <br />
+          Actualmente me encuentro también en el tercer año de la carrera
+          licenciatura en administración.
+          <br />
+          Por otro lado soy entusiasta del aprendizaje autodidacta
+          <br />
+          Disfruto en mi tiempo libre leer sobre filosofía y psicología, pasar
+          el rato con mis amigos y seres más cercanos y escuchar música en todo
+          momento que me sea posible.
+          <br />
         </p>
         <a href="cv/CV2022.pdf" target="_blank">Descargar CV</a>
       </div>
@@ -129,27 +154,44 @@
               width="16"
               height="16"
               fill="currentColor"
-              class="bi bi-code-slash"
+              class="bi bi-compass"
               viewBox="0 0 16 16"
             >
               <path
-                d="M10.478 1.647a.5.5 0 1 0-.956-.294l-4 13a.5.5 0 0 0 .956.294l4-13zM4.854 4.146a.5.5 0 0 1 0 .708L1.707 8l3.147 3.146a.5.5 0 0 1-.708.708l-3.5-3.5a.5.5 0 0 1 0-.708l3.5-3.5a.5.5 0 0 1 .708 0zm6.292 0a.5.5 0 0 0 0 .708L14.293 8l-3.147 3.146a.5.5 0 0 0 .708.708l3.5-3.5a.5.5 0 0 0 0-.708l-3.5-3.5a.5.5 0 0 0-.708 0z"
+                d="M8 16.016a7.5 7.5 0 0 0 1.962-14.74A1 1 0 0 0 9 0H7a1 1 0 0 0-.962 1.276A7.5 7.5 0 0 0 8 16.016zm6.5-7.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0z"
               />
+              <path d="m6.94 7.44 4.95-2.83-2.83 4.95-4.949 2.83 2.828-4.95z" />
             </svg>
           </span>
-          <h4>Diseño de Sitios Web</h4>
+          <h4>Rápido</h4>
           <hr />
-          <ul class="caracteristicas">
-            <li>nose</li>
-            <li>nose1</li>
-            <li>nose2</li>
-          </ul>
           <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio
-            incidunt sapiente asperiores dolor reiciendis voluptatibus qui,
-            quidem officia sed culpa aperiam adipisci nesciunt saepe esse
-            inventore. Dolore rerum ea id.
+            Priorizar mi trabajo para entregar objetivos en el tiempo indicado.
           </p>
+        </div>
+        <div class="servicio">
+          <span class="iconoCode">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="bi bi-people-fill"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1H7zm4-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"
+              />
+              <path
+                fill-rule="evenodd"
+                d="M5.216 14A2.238 2.238 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.325 6.325 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1h4.216z"
+              />
+              <path d="M4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5z" />
+            </svg>
+          </span>
+          <h4>Trabajo en equipo</h4>
+          <hr />
+          <p>Buenas habilidades comunicativas y de trabajo en equipo.</p>
         </div>
         <div class="servicio">
           <span class="iconoCode">
@@ -166,48 +208,9 @@
               />
             </svg>
           </span>
-          <h4>Diseño de Sitios Web</h4>
+          <h4>Continuo aprendizaje</h4>
           <hr />
-          <ul class="caracteristicas">
-            <li>nose</li>
-            <li>nose1</li>
-            <li>nose2</li>
-          </ul>
-          <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat,
-            asperiores et aspernatur iusto unde possimus eligendi quaerat
-            dolorum error illum assumenda. Quo et id qui nesciunt laudantium eum
-            maxime sapiente?
-          </p>
-        </div>
-        <div class="servicio">
-          <span class="iconoCode">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="16"
-              height="16"
-              fill="currentColor"
-              class="bi bi-code-slash"
-              viewBox="0 0 16 16"
-            >
-              <path
-                d="M10.478 1.647a.5.5 0 1 0-.956-.294l-4 13a.5.5 0 0 0 .956.294l4-13zM4.854 4.146a.5.5 0 0 1 0 .708L1.707 8l3.147 3.146a.5.5 0 0 1-.708.708l-3.5-3.5a.5.5 0 0 1 0-.708l3.5-3.5a.5.5 0 0 1 .708 0zm6.292 0a.5.5 0 0 0 0 .708L14.293 8l-3.147 3.146a.5.5 0 0 0 .708.708l3.5-3.5a.5.5 0 0 0 0-.708l-3.5-3.5a.5.5 0 0 0-.708 0z"
-              />
-            </svg>
-          </span>
-          <h4>Diseño de Sitios Web</h4>
-          <hr />
-          <ul class="caracteristicas">
-            <li>nose</li>
-            <li>nose1</li>
-            <li>nose2</li>
-          </ul>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi
-            soluta ipsum corporis obcaecati animi. Impedit quae nulla, vel iure
-            reprehenderit non architecto reiciendis neque, veniam placeat harum
-            alias animi in.
-          </p>
+          <p>Nunca me quedo quieto, tengo un aprendisaje proactivo.</p>
         </div>
       </div>
       <div class="fila">
@@ -218,27 +221,21 @@
               width="16"
               height="16"
               fill="currentColor"
-              class="bi bi-code-slash"
+              class="bi bi-pencil-square"
               viewBox="0 0 16 16"
             >
               <path
-                d="M10.478 1.647a.5.5 0 1 0-.956-.294l-4 13a.5.5 0 0 0 .956.294l4-13zM4.854 4.146a.5.5 0 0 1 0 .708L1.707 8l3.147 3.146a.5.5 0 0 1-.708.708l-3.5-3.5a.5.5 0 0 1 0-.708l3.5-3.5a.5.5 0 0 1 .708 0zm6.292 0a.5.5 0 0 0 0 .708L14.293 8l-3.147 3.146a.5.5 0 0 0 .708.708l3.5-3.5a.5.5 0 0 0 0-.708l-3.5-3.5a.5.5 0 0 0-.708 0z"
+                d="M15.502 1.94a.5.5 0 0 1 0 .706L14.459 3.69l-2-2L13.502.646a.5.5 0 0 1 .707 0l1.293 1.293zm-1.75 2.456-2-2L4.939 9.21a.5.5 0 0 0-.121.196l-.805 2.414a.25.25 0 0 0 .316.316l2.414-.805a.5.5 0 0 0 .196-.12l6.813-6.814z"
+              />
+              <path
+                fill-rule="evenodd"
+                d="M1 13.5A1.5 1.5 0 0 0 2.5 15h11a1.5 1.5 0 0 0 1.5-1.5v-6a.5.5 0 0 0-1 0v6a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5v-11a.5.5 0 0 1 .5-.5H9a.5.5 0 0 0 0-1H2.5A1.5 1.5 0 0 0 1 2.5v11z"
               />
             </svg>
           </span>
-          <h4>Diseño de Sitios Web</h4>
+          <h4>Lógica y planificación</h4>
           <hr />
-          <ul class="caracteristicas">
-            <li>nose</li>
-            <li>nose1</li>
-            <li>nose2</li>
-          </ul>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias
-            repudiandae cum optio saepe nihil quos iure voluptates tempore, a
-            qui inventore. Ab fuga doloremque commodi! Necessitatibus a quidem
-            exercitationem fugiat!
-          </p>
+          <p>Entrenamiento lógico y planificación del trabajo.</p>
         </div>
         <div class="servicio">
           <span class="iconoCode">
@@ -247,27 +244,17 @@
               width="16"
               height="16"
               fill="currentColor"
-              class="bi bi-code-slash"
+              class="bi bi-send-fill"
               viewBox="0 0 16 16"
             >
               <path
-                d="M10.478 1.647a.5.5 0 1 0-.956-.294l-4 13a.5.5 0 0 0 .956.294l4-13zM4.854 4.146a.5.5 0 0 1 0 .708L1.707 8l3.147 3.146a.5.5 0 0 1-.708.708l-3.5-3.5a.5.5 0 0 1 0-.708l3.5-3.5a.5.5 0 0 1 .708 0zm6.292 0a.5.5 0 0 0 0 .708L14.293 8l-3.147 3.146a.5.5 0 0 0 .708.708l3.5-3.5a.5.5 0 0 0 0-.708l-3.5-3.5a.5.5 0 0 0-.708 0z"
+                d="M15.964.686a.5.5 0 0 0-.65-.65L.767 5.855H.766l-.452.18a.5.5 0 0 0-.082.887l.41.26.001.002 4.995 3.178 3.178 4.995.002.002.26.41a.5.5 0 0 0 .886-.083l6-15Zm-1.833 1.89L6.637 10.07l-.215-.338a.5.5 0 0 0-.154-.154l-.338-.215 7.494-7.494 1.178-.471-.47 1.178Z"
               />
             </svg>
           </span>
-          <h4>Diseño de Sitios Web</h4>
+          <h4>Dúctil</h4>
           <hr />
-          <ul class="caracteristicas">
-            <li>nose</li>
-            <li>nose1</li>
-            <li>nose2</li>
-          </ul>
-          <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi
-            quidem ex sunt id perferendis aspernatur. Nihil nulla molestias ipsa
-            voluptatibus ipsum accusantium placeat voluptatem? Iure et ratione
-            eveniet magni aperiam.
-          </p>
+          <p>Buena y rápida adaptación a los cambios.</p>
         </div>
         <div class="servicio">
           <span class="iconoCode">
@@ -276,129 +263,112 @@
               width="16"
               height="16"
               fill="currentColor"
-              class="bi bi-code-slash"
+              class="bi bi-ui-checks"
               viewBox="0 0 16 16"
             >
               <path
-                d="M10.478 1.647a.5.5 0 1 0-.956-.294l-4 13a.5.5 0 0 0 .956.294l4-13zM4.854 4.146a.5.5 0 0 1 0 .708L1.707 8l3.147 3.146a.5.5 0 0 1-.708.708l-3.5-3.5a.5.5 0 0 1 0-.708l3.5-3.5a.5.5 0 0 1 .708 0zm6.292 0a.5.5 0 0 0 0 .708L14.293 8l-3.147 3.146a.5.5 0 0 0 .708.708l3.5-3.5a.5.5 0 0 0 0-.708l-3.5-3.5a.5.5 0 0 0-.708 0z"
+                d="M7 2.5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-7a.5.5 0 0 1-.5-.5v-1zM2 1a2 2 0 0 0-2 2v2a2 2 0 0 0 2 2h2a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2H2zm0 8a2 2 0 0 0-2 2v2a2 2 0 0 0 2 2h2a2 2 0 0 0 2-2v-2a2 2 0 0 0-2-2H2zm.854-3.646a.5.5 0 0 1-.708 0l-1-1a.5.5 0 1 1 .708-.708l.646.647 1.646-1.647a.5.5 0 1 1 .708.708l-2 2zm0 8a.5.5 0 0 1-.708 0l-1-1a.5.5 0 0 1 .708-.708l.646.647 1.646-1.647a.5.5 0 0 1 .708.708l-2 2zM7 10.5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-7a.5.5 0 0 1-.5-.5v-1zm0-5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm0 8a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5z"
               />
             </svg>
           </span>
-          <h4>Diseño de Sitios Web</h4>
+          <h4>Riguroso</h4>
           <hr />
-          <ul class="caracteristicas">
-            <li>nose</li>
-            <li>nose1</li>
-            <li>nose2</li>
-          </ul>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit
-            sint optio fugiat corrupti eos quidem, mollitia delectus ratione
-            necessitatibus, dolorum sunt reprehenderit saepe temporibus deserunt
-            eaque dolorem adipisci numquam quo.
-          </p>
+          <p>Los detalles transforman un trabajo mediocre en uno excepcional.</p>
         </div>
       </div>
     </section>
 
     <!-- SECCION TECNOLOGIAS -->
-    <div class="skilsContainer" id="skills">
-      <h3>TECNOLOGIAS</h3>
-      <div class="skill">
-        <div class="info">
-          <p><span class="lista"></span>html & css</p>
-          <span class="porcentaje">95%</span>
+  <section class="tecno" id="tecnologías">
+    <div class="principal">
+      <div class="tecnoPart">
+        <h1>Tecnologías</h1>
+      <div class="tecnologias1">
+              <div class="htmlImg">
+                <img src="/ImgPor/imgTecnologias/html.png" alt="">
+                <h3>HTML</h3>
+              </div>
+              <div class="cssImg">
+                <img src="/ImgPor/imgTecnologias/css.png" alt="">
+                <h3>CSS</h3>
+              </div>
+              <div class="jsImg">
+                <img src="/ImgPor/imgTecnologias/js.png" alt="">
+                <h3>Javascript</h3>
+              </div>
+              <div class="reactImg">
+                <img src="/ImgPor/imgTecnologias/react.png" alt="">
+                <h3>React</h3>
+              </div>
+              <div class="reduxImg">
+                <img src="/ImgPor/imgTecnologias/redux.png" alt="">
+                <h3>Redux</h3>
+            </div>
         </div>
-        <div class="barra">
-          <div id="html" class="barraProgreso1"></div>
-        </div>
-      </div>
-
-      <div class="skill">
-        <div class="info">
-          <p><span class="lista"></span>Javascript</p>
-          <span class="porcentaje">90%</span>
-        </div>
-        <div class="barra">
-          <div id="javascript" class="barraProgreso2"></div>
-        </div>
-      </div>
-
-      <div class="skill">
-        <div class="info">
-          <p><span class="lista"></span>React</p>
-          <span class="porcentaje">85%</span>
-        </div>
-        <div class="barra">
-          <div id="react" class="barraProgreso3"></div>
-        </div>
-      </div>
-
-      <div class="skill">
-        <div class="info">
-          <p><span class="lista"></span>sass</p>
-          <span class="porcentaje">80%</span>
-        </div>
-        <div class="barra">
-          <div id="sass" class="barraProgreso4"></div>
-        </div>
-      </div>
+  
+        <div class="tecnologias2">
+              <div class="nodeImg">
+                <img src="/ImgPor/imgTecnologias/node.js" alt="">
+                <h3>Node.js</h3>
+              </div>
+              <div class="sassImg">
+                <img src="/ImgPor/imgTecnologias/sass.png" alt="">
+                <h3>Sass</h3>
+              </div>
+              <div class="bootstrapImg">
+                <img src="/ImgPor/imgTecnologias/bootstrap.png" alt="">
+                <h3>Bootstrap</h3>
+              </div>
+              <div class="gitHubImg">
+                <img src="/ImgPor/imgTecnologias/gitHub.png" alt="">
+                <h3>GitHub</h3>
+              </div>
+              <div class="gitImg">
+                <img src="/ImgPor/imgTecnologias/git.png" alt="">
+                <h3>Git</h3>
+          </div>
+       </div>
     </div>
+  </section>
 
     <!-- SECCION PROYECTOS -->
     <section id="proyectos">
       <h3 class="tituloProyecto">MIS PROYECTOS</h3>
       <div class="fila">
         <div class="proyecto">
-          <div class="overlay"></div>
-          <img src="/ImgPor/Programador/Programador.png" alt="" />
-          <div class="info">
-            <h4>Descripcion del proyecto</h4>
-            <p>Diseño web</p>
-          </div>
+          <h3>To Do List</h3>
+          <video controls>
+            <source src="ImgPor/Proyectos/To Do List - Brave 2022-06-30 19-55-41_Trim.mp4" type="video/mp4">
+            <source src="ImgPor/Proyectos/Weather app - Brave 2022-06-17 15-40-15_Trim.mp4" type="video/ogg"
+          </video>
         </div>
         <div class="proyecto">
-          <div class="overlay"></div>
-          <img src="/ImgPor/Programador/Programador.png" alt="" />
-          <div class="info">
-            <h4>Descripcion del proyecto</h4>
-            <p>Diseño web</p>
+          <h3>Weather App</h3>
+          <video controls>
+            <source src="ImgPor/Proyectos/Weather app - Brave 2022-06-17 15-40-15_Trim.mp4" type="video/mp4">
+            <source src="ImgPor/Proyectos/Weather app - Brave 2022-06-17 15-40-15_Trim.mp4" type="video/ogg"
+          </video>
           </div>
         </div>
-      </div>
     </section>
 
     <!-- SECCION CONTACTO -->
     <section id="contacto">
       <h3 class="tituloCon">CONTACTO</h3>
       <div class="formContainer">
-        <form action="">
+        <form action="https://formsubmit.co/80b3c8c935df6011cebc62e5609c15bc" method="POST" />
           <div class="fila mitad">
-            <input
-              type="text"
-              placeholder="Nombre completo"
-              class="input-mitad"
-            />
-            <input
-              type="text"
-              placeholder="Dirección de Email"
-              class="input-mitad"
-            />
+            <input type="text" placeholder="Nombre completo" class="input-mitad" name="name"/>
+            <input type="email" name="email" placeholder="Dirección de Email" class="input-mitad"  />
           </div>
           <div class="fila">
-            <input type="text" placeholder="Asunto" class="input-full" />
+            <input type="text" placeholder="Asunto" class="input-full" name="subject"/>
           </div>
           <div class="fila">
-            <textarea
-              name=""
-              id=""
-              cols="30"
-              rows="10"
-              placeholder="Mensaje"
-              class="input-full"
+            <textarea name="comments" id="" cols="30" rows="10" placeholder="Mensaje" class="input-full"
             ></textarea>
           </div>
-          <input type="submit" value="Enviar mensaje" class="btn-enviar" />
+          <input type="submit" value="Enviar mensaje" class="btn-enviar"/>
         </form>
       </div>
     </section>

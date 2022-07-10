@@ -10,17 +10,21 @@ html {
 }
 
 /*-------------------------------------------------------------------INICIO-------------------------------------------------------------------*/
+#colorcito {
+  background-color: #000;
+}
 
 #inicio {
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url("ImgPor/Computer/Computer.png");
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)),
+    url("ImgPor/SVG/ingles-para-programadores.jpg");
+  color: #fff;
   background-size: cover;
   background-position: center center;
   height: 100vh;
 }
 
 #inicio .container header {
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgb(0, 0, 0);
   position: fixed;
   width: 100%;
   z-index: 100;
@@ -49,7 +53,7 @@ html {
 
 #inicio .container header .headerContainer nav ul li a {
   text-decoration: none;
-  color: #fff;
+  color: rgb(255, 255, 255);
   margin: 0 14px;
   font-weight: 400;
   transition: 0.5s;
@@ -67,6 +71,10 @@ html {
   transition: 0.5s;
 }
 
+#inicio .container header .headerContainer .seleccionado {
+  color: darkorchid;
+}
+
 #inicio .container header .headerContainer .redes a:hover {
   color: darkorchid;
 }
@@ -75,27 +83,22 @@ html {
   max-width: 1100px;
   height: 100vh;
   margin: auto;
-  color: #fff;
+  color: rgb(255, 255, 255);
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
 
-.presentacion p {
-  margin-top: 80px;
-}
-
-#inicio .container .presentacion .bienvenida {
-  font-size: 16px;
-  margin-bottom: 20px;
-  text-transform: uppercase;
-  letter-spacing: 5px;
-}
 #inicio .container .presentacion h2 {
   font-size: 55px;
   margin-bottom: 25px;
   text-align: center;
+}
+
+#inicio .container .presentacion h2 span {
+  font-size: 55px;
+  color: darkorchid;
 }
 
 #inicio .container .presentacion .descripcion {
@@ -103,23 +106,6 @@ html {
   margin: 25px auto;
   font-size: 18px;
   text-align: center;
-}
-
-#inicio .container .presentacion a {
-  text-decoration: none;
-  display: inline-block;
-  margin: 25px;
-  padding: 20px 25px;
-  border: 2px solid #fff;
-  border-radius: 50px;
-  color: #fff;
-  font-weight: bold;
-  text-transform: uppercase;
-  transition: 0.5s;
-}
-
-#inicio .container .presentacion a:hover {
-  background-color: darkorchid;
 }
 
 #iconoNav {
@@ -130,10 +116,11 @@ html {
 /*-----------------------------------------------------------------SECCION SOBRE MI-----------------------------------------------------------*/
 
 #sobreMi {
+  background-color: #ffffff;
   max-width: 1100px;
+  max-height: 1100px;
   margin: auto;
   padding: 100px 15px;
-  color: #111135;
   display: flex;
 }
 
@@ -146,8 +133,8 @@ html {
   padding: 20px;
   width: 400px;
   border-radius: 20px;
-  background-color: darkorchid;
-  border: 2px solid #565656;
+  background-color: #202a33;
+  border: 2px solid rgb(0, 0, 0);
 }
 
 #sobreMi .sobreMi {
@@ -160,8 +147,8 @@ html {
   color: #111135;
   text-decoration: underline;
   text-decoration-color: #d3d3d3;
-  text-decoration-thickness: 5px;
-  text-decoration-color: darkorchid;
+  text-decoration-thickness: 3px;
+  text-decoration-color: rgb(0, 0, 0);
 }
 
 #sobreMi .sobreMi h2 {
@@ -182,7 +169,7 @@ html {
 #sobreMi .sobreMi p {
   font-size: 14px;
   line-height: 25px;
-  color: #565670;
+  color: #3a3a4b;
   margin-bottom: 12px;
 }
 
@@ -197,7 +184,7 @@ html {
 }
 
 #sobreMi .sobreMi a:hover {
-  background-color: darkorchid;
+  background-color: rgb(0, 0, 0);
   color: #fff;
 }
 
@@ -206,17 +193,20 @@ html {
 #habilidades {
   padding: 100px 15px;
   text-align: center;
-  background-color: #f3f3f3;
+  background-color: black;
+  /* background: #bdc3c7;
+  background: -webkit-linear-gradient(to bottom, #000000, #191f24);
+  background: linear-gradient(to bottom, #000000, #191f24);  */
 }
 
 #habilidades .tituloTec {
   font-size: 22px;
   text-transform: uppercase;
-  color: #111135;
+  color: #ffffff;
   text-decoration: underline;
-  text-decoration-color: #d3d3d3;
-  text-decoration-color: darkorchid;
-  text-decoration-thickness: 5px;
+  text-decoration-color: #2e2828;
+  text-decoration-color: rgb(255, 255, 255);
+  text-decoration-thickness: 3px;
 }
 
 #habilidades .fila {
@@ -227,14 +217,14 @@ html {
 }
 
 #habilidades .fila .servicio {
-  max-width: 350px;
-  background-color: #fff;
+  max-width: 300px;
   padding: 30px;
-  margin: 0 20px;
-  border-radius: 5px;
+  margin: 10px;
+  border-radius: 10px;
   transition: 0.5s;
+  background-color: #fff;
+  border: 1px solid rgb(0, 0, 0);
 }
-
 #habilidades .fila .servicio:hover {
   box-shadow: 5px 5px 10px #565656, -5px -5px 10px #8a8a8a;
 }
@@ -249,8 +239,10 @@ html {
   width: 60px;
   height: 60px;
   border-radius: 50%;
-  background-color: #d3d3d3;
+  color: #fff;
+  background-color: #202a33;
   padding: 20px;
+  border: 2px solid rgb(0, 0, 0);
   margin-bottom: 25px;
 }
 
@@ -261,13 +253,6 @@ html {
   margin-bottom: 25px;
 }
 
-#habilidades .fila .servicio ul {
-  list-style: none;
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 10px;
-}
-
 #habilidades .fila .servicio p {
   font-size: 14px;
   line-height: 22px;
@@ -275,175 +260,123 @@ html {
 
 /*-----------------------------------------------------------SECCION HABILIDADES--------------------------------------------------------------*/
 
-.skilsContainer {
-  background: linear-gradient(rgba(153, 50, 204, 0.644), rgba(33, 16, 16, 0.8)),
-    url("ImgPor/computadoras.jpg");
+.tecno {
+  background: linear-gradient(rgba(39, 31, 31, 0.8), rgba(0, 0, 0, 0.7)),
+    url("ImgPor/SVG/computadoras.jpg");
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  padding: 100px 0;
   text-align: center;
+  height: 100vh;
+}
+
+.principal h1 {
+  justify-content: center;
   color: #d3d3d3;
+  padding: 70px;
+  text-decoration-color: #ffffff;
+  text-decoration-thickness: 3px;
+  text-transform: uppercase;
+  text-decoration: underline;
 }
 
-.skilsContainer .skill {
-  max-width: 600px;
-  margin: 30px auto;
+.principal img {
+  width: 90px;
 }
 
-.skilsContainer .skill .info {
-  display: flex;
-  justify-content: space-between;
+.tecnologias1 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, auto));
+  justify-content: center;
+  gap: 60px;
+  margin: 50px;
 }
 
-.skilsContainer .skill .lista {
-  display: inline-block;
-  margin-right: 20px;
-  height: 10px;
-  width: 10px;
-  background-color: #fff;
+.tecnologias2 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, auto));
+  justify-content: center;
+  gap: 60px;
+  margin: 50px;
 }
 
-.skilsContainer .skill .barra {
-  background-color: #919191;
-  width: 100%;
-  height: 6px;
-  margin: 10px;
+.tecnoPart h3 {
+  background-color: black;
+  text-align: center;
+  border-radius: 5px;
+  padding: 5px 0;
+  font-size: 1.1rem;
+  width: 100px;
+  color: rgb(207, 207, 207);
+  opacity: 0;
+  transform: translate(0px, -10px);
+  transition: transform 0.4s ease, opacity 0.4s ease;
 }
 
-.skilsContainer .skill .barra .barraProgreso1 {
-  background-color: #fff;
-  width: 95%;
-  height: 6px;
-  animation: barraProgreso1 2s forwards;
+.tecnologias1 > div:hover h3 {
+  opacity: 1;
+  transform: translate(0px, -160px);
 }
 
-.skilsContainer .skill .barra .barraProgreso2 {
-  background-color: #fff;
-  width: 90%;
-  height: 6px;
-  animation: barraProgreso2 2s forwards;
-}
-
-.skilsContainer .skill .barra .barraProgreso3 {
-  background-color: #fff;
-  width: 85%;
-  height: 6px;
-  animation: barraProgreso3 2s forwards;
-}
-
-.skilsContainer .skill .barra .barraProgreso4 {
-  background-color: #fff;
-  width: 80%;
-  height: 6px;
-  animation: barraProgreso4 2s forwards;
-}
-
-@keyframes barraProgreso1 {
-  0% {
-    width: 0;
-  }
-  100% {
-    width: 95%;
-  }
-}
-
-@keyframes barraProgreso2 {
-  0% {
-    width: 0;
-  }
-  100% {
-    width: 90%;
-  }
-}
-
-@keyframes barraProgreso3 {
-  0% {
-    width: 0;
-  }
-  100% {
-    width: 85%;
-  }
-}
-
-@keyframes barraProgreso4 {
-  0% {
-    width: 0;
-  }
-  100% {
-    width: 80%;
-  }
+.tecnologias2 > div:hover h3 {
+  opacity: 1;
+  transform: translate(0px, -135px);
 }
 
 /*----------------------------------------------------------------SECCION PROYECTOS-----------------------------------------------------------*/
 
 #proyectos {
-  max-width: 1100px;
-  padding: 100px 0;
-  margin: auto;
+  padding: 100px;
+  background-color: #000;
+  margin: 0;
 }
 
 #proyectos .tituloProyecto {
   text-align: center;
   font-size: 22px;
+  padding-bottom: 50px;
   text-transform: uppercase;
-  color: #111135;
+  color: #ffffff;
   text-decoration: underline;
   text-decoration-color: #d3d3d3;
-  text-decoration-color: darkorchid;
-  text-decoration-thickness: 5px;
+  text-decoration-color: rgb(255, 255, 255);
+  text-decoration-thickness: 3px;
 }
 
 #proyectos .fila {
   display: flex;
   justify-content: space-between;
-  margin: 30px 0;
 }
 
 #proyectos .fila .proyecto {
   max-width: 450px;
-  border: 1px solid rgb(0, 0, 0);
-  background-color: #d3d3d3;
-  margin: 10px 10px;
-  position: relative;
   overflow: hidden;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-radius: 10px;
+  border: 1px solid white;
 }
 
-#proyectos .fila .proyecto img {
+.fila h3 {
+  text-align: center;
+  background-color: rgb(0, 0, 0);
+  color: rgb(214, 214, 214);
+  border-bottom: 1px solid white;
+}
+
+#proyectos .fila .proyecto video {
   width: 100%;
   height: 100%;
-  filter: grayscale(1);
-  object-fit: cover;
-  transition: 0.5s;
   cursor: pointer;
 }
 
-#proyectos .fila .proyecto:hover img {
-  filter: grayscale(0);
-}
-
-#proyectos .fila .proyecto .info {
-  position: absolute;
-  left: 0;
-  background-color: rgba(0, 0, 0, 0.8);
-  color: darkorchid;
-  width: 100%;
-  padding: 10px;
-  opacity: 0;
-  bottom: -40px;
-  transition: 0.5s;
-}
-
-#proyectos .fila .proyecto:hover .info {
-  opacity: 1;
-  bottom: 0;
-}
 
 /*-----------------------------------------------------------SECCION CONTACTO--------------------------------------------------------------*/
 
 #contacto {
   padding: 100px 15px;
+  background-color: #000;
 }
 
 #contacto .tituloCon {
@@ -451,10 +384,10 @@ html {
   text-align: center;
   font-size: 22px;
   text-transform: uppercase;
-  color: #111135;
+  color: #ffffff;
   text-decoration: underline;
-  text-decoration-color: darkorchid;
-  text-decoration-thickness: 5px;
+  text-decoration-color: rgb(255, 255, 255);
+  text-decoration-thickness: 3px;
 }
 
 #contacto .formContainer {
@@ -473,7 +406,7 @@ html {
 
 #contacto .formContainer input,
 #contacto .formContainer textarea {
-  padding: 20px;
+  padding: 10px;
   border-radius: 20px;
   border: none;
   border: 1px solid rgba(0, 0, 0, 0.8);
@@ -513,7 +446,7 @@ html {
   }
   nav.responsive {
     display: block;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: black;
     width: 100%;
     position: absolute;
     top: 48px;
@@ -533,6 +466,11 @@ html {
   #inicio .container .presentacion h2 {
     font-size: 40px;
   }
+
+  #inicio .container .presentacion h2 span {
+    font-size: 40px;
+  }
+
   #sobreMi {
     padding: 50px 0;
     display: block;
@@ -562,14 +500,91 @@ html {
     text-align: center;
   }
 
-  #habilidades {
+  .tecno {
+    height: 100%;
+  }
+
+  .principal h1 {
+    justify-content: center;
+    padding: 60px;
+  }
+
+  .principal img {
+    width: 45px;
+  }
+
+  .tecnologias1 {
+    padding: 0;
+    margin: 50px 2px;
+    gap: 2px;
+  }
+
+  .tecnologias2 {
+    padding: 0;
+    margin: 50px 2px;
+    gap: 2px;
+  }
+
+  .tecno {
+    height: 100vh;
+  }
+
+  .tecnoPart h3 {
+    background-color: black;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px 0;
+    font-size: 1.1rem;
+    width: 100px;
+    color: rgb(207, 207, 207);
+    opacity: 0;
+    transform: translate(0px, -10px);
+    transition: transform 0.4s ease, opacity 0.4s ease;
+  }
+
+  .tecnologias1 > div:hover h3 {
+    opacity: 1;
+    transform: translate(0px, -100px);
+  }
+
+  .tecnologias2 > div:hover h3 {
+    opacity: 1;
+    transform: translate(0px, -100px);
+  }
+  #proyectos {
+    padding: 50px 0;
+  }
+
+  #proyectos .fila {
+    display: block;
+    text-align: center;
+  }
+
+  #proyectos .fila .proyecto {
+    margin: 5px auto;
+  }
+
+  #proyectos .fila .proyecto {
+    margin-bottom: 40px;
+    max-width: 450px;
+    overflow: hidden;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-radius: 10px;
+    border: 1px solid white;
+  }
+
+  #contacto {
     padding: 50px 15px;
   }
-  #habilidades .fila {
+  #contacto .formContainer .mitad {
+    margin-bottom: 15px;
     display: block;
   }
-  #habilidades .fila .servicio {
-    margin: 30px auto;
+  #contacto .formContainer .mitad input {
+    width: 100%;
+    margin-bottom: 15px;
   }
-  
 }
+
+/*----------------------------------------------------------SECCION OSCURO-------------------------------------------------------------*/
