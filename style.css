@@ -194,9 +194,6 @@ html {
   padding: 100px 15px;
   text-align: center;
   background-color: black;
-  /* background: #bdc3c7;
-  background: -webkit-linear-gradient(to bottom, #000000, #191f24);
-  background: linear-gradient(to bottom, #000000, #191f24);  */
 }
 
 #habilidades .tituloTec {
@@ -219,14 +216,14 @@ html {
 #habilidades .fila .servicio {
   max-width: 300px;
   padding: 30px;
-  margin: 10px;
-  border-radius: 10px;
+  margin: 0px 5px;
+  border-radius: 5px;
   transition: 0.5s;
   background-color: #fff;
   border: 1px solid rgb(0, 0, 0);
 }
 #habilidades .fila .servicio:hover {
-  box-shadow: 5px 5px 10px #565656, -5px -5px 10px #8a8a8a;
+  box-shadow: 5px 5px 10px #706d6d, -5px -5px 10px #8a8a8a;
 }
 
 #habilidades .fila .servicio h4 {
@@ -251,6 +248,13 @@ html {
   margin: auto;
   color: #000;
   margin-bottom: 25px;
+}
+
+#habilidades .fila .servicio ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
 }
 
 #habilidades .fila .servicio p {
@@ -370,7 +374,6 @@ html {
   height: 100%;
   cursor: pointer;
 }
-
 
 /*-----------------------------------------------------------SECCION CONTACTO--------------------------------------------------------------*/
 
@@ -498,6 +501,19 @@ html {
 
   #sobreMi .sobreMi a {
     text-align: center;
+  }
+
+  #habilidades {
+    padding: 50px 15px;
+  }
+
+  #habilidades .fila {
+    display: block;
+    margin: 15px;
+  }
+
+  #habilidades .fila .servicio {
+    margin: 15px auto;
   }
 
   .tecno {
