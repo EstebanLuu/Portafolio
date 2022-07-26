@@ -305,6 +305,11 @@ html {
   margin: 50px;
 }
 
+.tecnologias1 .typescriptImg img {
+  height: 100px;
+  height: auto;
+}
+
 .tecnoPart h3 {
   background-color: black;
   text-align: center;
@@ -495,7 +500,7 @@ html {
   }
 
   #inicio .container .presentacion h2 span {
-    font-size: 40px;
+    font-size: 20px;
   }
 
   #sobreMi {
@@ -626,5 +631,3 @@ html {
     margin-bottom: 15px;
   }
 }
-
-/*----------------------------------------------------------SECCION OSCURO-------------------------------------------------------------*/
