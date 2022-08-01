@@ -508,7 +508,7 @@ html {
     display: block;
   }
   #sobreMi .imgContainer {
-    width: 400px;
+    max-width: 400px;
     margin: auto;
   }
   #sobreMi .imgContainer img {
