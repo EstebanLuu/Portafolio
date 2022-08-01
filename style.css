@@ -508,10 +508,11 @@ html {
     display: block;
   }
   #sobreMi .imgContainer {
-    max-width: 400px;
+    width: 400px;
     margin: auto;
   }
   #sobreMi .imgContainer img {
+    width: 100%;
     padding: 8px;
   }
   #sobreMi .sobreMi .seccionTitulo {
