@@ -5,6 +5,13 @@
   font-family: Poppins;
 }
 
+:root {
+  --primary: hotpink;
+  --secondary: darkorchid;
+  -light: azure;
+  --dark: black;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -42,7 +49,7 @@ html {
 
 #inicio .container header .headerContainer h1 {
   text-align: center;
-  color: darkorchid;
+  color: var(--secondary);
 }
 
 #inicio .container header .headerContainer nav ul {
