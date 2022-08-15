@@ -27,25 +27,25 @@
           <div class="headerContainer">
             <h1>-/EL/-></h1>
             <div class="imagenContainer"></div>
-            <nav id="nav" class="">
+            <nav id="nav" >
               <ul id="links">
                 <li>
-                  <a href="#inicio" class="seleccionado"onclick="seleccionar(this)">INICIO</a>
+                  <a href="#inicio" class="seleccionado"onclick="seleccionar(this)" data-section="firstSection" data-value="searchBar1">Inicio</a>
                 </li>
                 <li>
-                  <a href="#sobreMi" onclick="seleccionar(this)">SOBRE MI</a>
+                  <a href="#sobreMi" onclick="seleccionar(this)" data-section="firstSection" data-value="searchBar2">Sobre mi</a>
                 </li>
                 <li>
-                  <a href="#habilidades"onclick="seleccionar(this)">HABILIDADES</a>
+                  <a href="#habilidades"onclick="seleccionar(this)" data-section="firstSection" data-value="searchBar3">Habilidades</a>
                 </li>
                 <li>
-                  <a href="#tecnologías"onclick="seleccionar(this)">TECNOLOGÍAS</a>
+                  <a href="#tecnologías"onclick="seleccionar(this)" >Tecnologías</a>
                 </li>
                 <li>
-                  <a href="#proyectos" onclick="seleccionar(this)">PROYECTOS</a>
+                  <a href="#proyectos" onclick="seleccionar(this)" data-section="firstSection" data-value="searchBar5">Proyectos</a>
                 </li>
                 <li>
-                  <a href="#contacto"onclick="seleccionar(this)">CONTACTO</a>
+                  <a href="#contacto"onclick="seleccionar(this)"data-section="firstSection" data-value="searchBar6">Contacto</a>
                 </li>
               </ul>
             </nav>
@@ -98,10 +98,18 @@
                 </svg>
               </a>
             </div>
+            <div id="flags" class="flags">
+              <div class="flags__item" data-language="es">
+                <img src="./ImgPor/banderas/es.svg" alt="">
+              </div>
+              <div class="flags__item" data-language="en">
+                <img src="./ImgPor/banderas/gb.svg" alt="">
+              </div>
+            </div>
           </div>
         </header>
-        <div class="presentacion">
-          <h2>
+        <div class="presentacion" >
+          <h2 data-section="firstSection" data-value="titulo">
             ¡ Hola, soy <span>Esteban Luna</span> !
             <hr />
             Full stack developer.
