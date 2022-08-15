@@ -6,6 +6,40 @@
     "searchBar4": "Technologies",
     "searchBar5": "Projects",
     "searchBar6": "Contact",
-    "titulo": "¡ Hi, I'm Esteban Luna ! Full stack developer."
+    "titulo": "¡ Hi, I'm <b>Esteban Luna</b> !<hr /> Full stack developer."
+  },
+  "secondSection": {
+    "titulo": "ABOUT ME",
+    "description": "My name is Esteban Luna, I am from Argentina. I'm 21 years old.<br />I am a full stack developer very passionate about what I do.<br />I love learning new technologies and languages constantly.<br />I'm currently in the third year of my bachelor's degree in management.<br />On the other hand, I am an enthusiast of self-taught learning.<br />In my spare time, I enjoy reading about philosophy and psychology, hanging out with my friends and loved ones, and listening to music whenever I can.<br />",
+    "a": "Download CV"
+  },
+  "tirdSection": {
+    "titulo": "SKILLS",
+    "cardTit1": "Fast",
+    "cardDesc1": "Prioritize my work to deliver goals in the indicated time.",
+    "cardTit2": "Teamwork",
+    "cardDesc2": "Good communication and teamwork skills",
+    "cardTit3": "Continuous learning",
+    "cardDesc3": "I have a proactive learning.",
+    "cardTit4": "Planning",
+    "cardDesc4": "Logical training and work planning.",
+    "cardTit5": "Ductile",
+    "cardDesc5": "Good and fast adaptation to changes.",
+    "cardTit6": "Rigorous",
+    "cardDesc6": "The details transform a simple job into an exceptional one."
+  },
+  "fourthSection": {
+    "titulo": "Technologies"
+  },
+  "fifthSection": {
+    "titulo": "My projects"
+  },
+  "sixthSection": {
+    "titulo": "Contact",
+    "formName": "Full name",
+    "formEmail": "Email",
+    "formSubject": "Subject",
+    "formMessage": "Message",
+    "formSubmit": "Send message"
   }
 }

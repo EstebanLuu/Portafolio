@@ -109,7 +109,7 @@ html {
   text-align: center;
 }
 
-#inicio .container .presentacion h2 span {
+#inicio .container .presentacion h2 b {
   font-size: 55px;
   color: darkorchid;
 }
@@ -485,7 +485,17 @@ html {
 
 @media screen and (max-width: 800px) {
   .redes {
-    display: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 50px;
+  }
+
+  .redes a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 12px;
   }
   nav {
     display: none;
@@ -497,7 +507,6 @@ html {
     position: absolute;
     top: 48px;
     left: 0;
-    padding: 10px 0;
   }
   nav.responsive ul {
     display: block !important;
@@ -506,14 +515,27 @@ html {
   nav.responsive ul li {
     margin: 5px 0;
   }
+
+  .flags {
+    width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .flags__item {
+    width: 12px;
+    cursor: pointer;
+  }
   #iconoNav {
-    display: block;
+    display: flex;
+    width: 25px;
   }
   #inicio .container .presentacion h2 {
     font-size: 20px;
   }
 
-  #inicio .container .presentacion h2 span {
+  #inicio .container .presentacion h2 b {
     font-size: 20px;
   }
 

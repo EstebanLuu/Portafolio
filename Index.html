@@ -39,7 +39,7 @@
                   <a href="#habilidades"onclick="seleccionar(this)" data-section="firstSection" data-value="searchBar3">Habilidades</a>
                 </li>
                 <li>
-                  <a href="#tecnologías"onclick="seleccionar(this)" >Tecnologías</a>
+                  <a href="#tecnologías"onclick="seleccionar(this)"  data-section="firstSection" data-value="searchBar4">Tecnologías</a>
                 </li>
                 <li>
                   <a href="#proyectos" onclick="seleccionar(this)" data-section="firstSection" data-value="searchBar5">Proyectos</a>
@@ -50,21 +50,7 @@
               </ul>
             </nav>
             <!--ICONOS DEL MENU RESPONSIVE-->
-            <div id="iconoNav" onclick="responsiveMenu()">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="16"
-                height="16"
-                fill="currentColor"
-                class="bi bi-list"
-                viewBox="0 0 16 16"
-              >
-                <path
-                  fill-rule="evenodd"
-                  d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"
-                />
-              </svg>
-            </div>
+            
             <!--ICONOS DE LAS REDES-->
             <div class="redes">
               <a href="https://github.com/EstebanLuu" target="_blank"
@@ -105,14 +91,29 @@
               <div class="flags__item" data-language="en">
                 <img src="./ImgPor/banderas/gb.svg" alt="">
               </div>
+              <div id="iconoNav" onclick="responsiveMenu()">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-list"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"
+                  />
+                </svg>
+              </div>
             </div>
           </div>
         </header>
         <div class="presentacion" >
           <h2 data-section="firstSection" data-value="titulo">
-            ¡ Hola, soy <span>Esteban Luna</span> !
+            ¡ Hola, soy <b>Esteban Luna</b> !
             <hr />
-            Full stack developer.
+            Bienvenido a mi portafolio.
           </h2>
         </div>
         </div>
@@ -125,10 +126,10 @@
         <img src="/ImgPor/Medita/Medita.jpg" alt="" />
       </div>
       <div class="sobreMi">
-        <p class="seccionTitulo">Sobre Mi</p>
+        <p class="seccionTitulo" data-section="secondSection" data-value="titulo">Sobre Mi</p>
         <!-- <h2></h2>
         <h3></h3> -->
-        <p>
+        <p data-section="secondSection" data-value="description">
           Mi nombre es Esteban Luna, soy de Argentina y tengo 21 años.
           <br />
           Soy Full Stack developer super apasionado por lo que
@@ -146,13 +147,13 @@
           momento que me sea posible.
           <br />
         </p>
-        <a href="cv/CV2022.pdf" target="_blank">Descargar CV</a>
+        <a href="cv/CV2022.pdf" target="_blank" data-section="secondSection" data-value="a">Descargar CV</a>
       </div>
     </section>
 
     <!--SECCION HABILIDADES BLANDAS-->
     <section id="habilidades">
-      <h3 class="tituloTec">Habilidades</h3>
+      <h3 class="tituloTec"data-section="tirdSection" data-value="titulo" >Habilidades</h3>
       <div class="fila">
         <div class="servicio">
           <span class="iconoCode">
@@ -170,9 +171,9 @@
               <path d="m6.94 7.44 4.95-2.83-2.83 4.95-4.949 2.83 2.828-4.95z" />
             </svg>
           </span>
-          <h4>Rápido</h4>
+          <h4 data-section="tirdSection" data-value="cardTit1" >Rápido</h4>
           <hr />
-          <p>
+          <p data-section="tirdSection" data-value="cardDesc1">
             Priorizar mi trabajo para entregar objetivos en el tiempo indicado.
           </p>
         </div>
@@ -196,9 +197,9 @@
               <path d="M4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5z" />
             </svg>
           </span>
-          <h4>Trabajo en equipo</h4>
+          <h4 data-section="tirdSection" data-value="cardTit2">Trabajo en equipo</h4>
           <hr />
-          <p>Buenas habilidades comunicativas y de trabajo en equipo.</p>
+          <p data-section="tirdSection" data-value="cardDesc2">Buenas habilidades comunicativas y de trabajo en equipo.</p>
         </div>
         <div class="servicio">
           <span class="iconoCode">
@@ -215,9 +216,9 @@
               />
             </svg>
           </span>
-          <h4>Continuo aprendizaje</h4>
+          <h4 data-section="tirdSection" data-value="cardTit3">Continuo aprendizaje</h4>
           <hr />
-          <p>Nunca me quedo quieto, tengo un aprendizaje proactivo.</p>
+          <p data-section="tirdSection" data-value="cardDesc3">Nunca me quedo quieto, tengo un aprendizaje proactivo.</p>
         </div>
       </div>
       <div class="fila">
@@ -240,9 +241,9 @@
               />
             </svg>
           </span>
-          <h4>Lógica y planificación</h4>
+          <h4 data-section="tirdSection" data-value="cardTit4">Planificativo</h4>
           <hr />
-          <p>Entrenamiento lógico y planificación del trabajo.</p>
+          <p data-section="tirdSection" data-value="cardDesc4">Entrenamiento lógico y planificación del trabajo.</p>
         </div>
         <div class="servicio">
           <span class="iconoCode">
@@ -259,9 +260,9 @@
               />
             </svg>
           </span>
-          <h4>Dúctil</h4>
+          <h4 data-section="tirdSection" data-value="cardTit5">Dúctil</h4>
           <hr />
-          <p>Buena y rápida adaptación a los cambios.</p>
+          <p data-section="tirdSection" data-value="cardDesc5">Buena y rápida adaptación a los cambios.</p>
         </div>
         <div class="servicio">
           <span class="iconoCode">
@@ -278,9 +279,9 @@
               />
             </svg>
           </span>
-          <h4>Riguroso</h4>
+          <h4 data-section="tirdSection" data-value="cardTit6">Riguroso</h4>
           <hr />
-          <p>Los detalles transforman un trabajo mediocre en uno excepcional.</p>
+          <p data-section="tirdSection" data-value="cardDesc6">Los detalles transforman un trabajo mediocre en uno excepcional.</p>
         </div>
       </div>
     </section>
@@ -289,7 +290,7 @@
   <section class="tecno" id="tecnologías">
     <div class="principal">
       <div class="tecnoPart">
-        <h1>Tecnologías</h1>
+        <h1 data-section="fourthSection" data-value="titulo">Tecnologías</h1>
       <div class="tecnologias1">
               <div class="htmlImg">
                 <img src="/ImgPor/imgTecnologias/html.png" alt="">
@@ -349,7 +350,7 @@
 
     <!-- SECCION PROYECTOS -->
     <section id="proyectos">
-      <h3 class="tituloProyecto">MIS PROYECTOS</h3>
+      <h3 class="tituloProyecto" data-section="fifthSection" data-value="titulo">MIS PROYECTOS</h3>
       <div class="fila">
         <div class="proyecto">
           <div class="tituloPro">
@@ -491,21 +492,21 @@
     
     <!-- SECCION CONTACTO -->
     <section id="contacto">
-      <h3 class="tituloCon">CONTACTO</h3>
+      <h3 class="tituloCon"  data-section="sixthSection" data-value="titulo">CONTACTO</h3>
       <div class="formContainer">
         <form action="https://formsubmit.co/80b3c8c935df6011cebc62e5609c15bc" method="POST" />
           <div class="fila mitad">
-            <input type="text" placeholder="Nombre completo" class="input-mitad" name="name"/>
-            <input type="email" name="email" placeholder="Dirección de Email" class="input-mitad"  />
+            <input type="text" placeholder="Full Name" class="input-mitad" name="name"/>
+            <input type="email" name="email" placeholder="Email" class="input-mitad"  />
           </div>
           <div class="fila">
-            <input type="text" placeholder="Asunto" class="input-full" name="subject"/>
+            <input type="text" placeholder="Subject" class="input-full" name="subject"/>
           </div>
           <div class="fila">
-            <textarea name="comments" id="" cols="30" rows="10" placeholder="Mensaje" class="input-full"
+            <textarea name="comments" id="" cols="30" rows="10" placeholder="Message" class="input-full"
             ></textarea>
-          </div>
-          <input type="submit" value="Enviar mensaje" class="btn-enviar"/>
+          </div >
+          <input  type="submit" value="Submit" class="btn-enviar"/>
         </form>
       </div>
     </section>

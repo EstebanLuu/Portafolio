@@ -1,11 +1,45 @@
 {
   "firstSection": {
-    "searchBar1": "Inico",
+    "searchBar1": "Inicio",
     "searchBar2": "Sobre mi",
     "searchBar3": "Habilidades",
     "searchBar4": "Tecnologías",
     "searchBar5": "Proyectos",
     "searchBar6": "Contacto",
-    "titulo": "¡ Hola, soy Esteban Luna ! Desarrollador Full stack."
+    "titulo": "¡ Hola, soy <b>Esteban Luna</b> ! <hr /> Desarrollador Full stack."
+  },
+  "secondSection": {
+    "titulo": "SOBRE MI",
+    "description": "Mi nombre es Esteban Luna, soy de Argentina y tengo 21 años.<br />Soy Full Stack developer super apasionado por lo que hago.<br />Me encanta aprender tecnologías y lenguajes nuevos de manera constante<br />Actualmente me encuentro también en el tercer año de la carrera licenciatura en administración.<br />Por otro lado soy entusiasta del aprendizaje autodidacta<br />Disfruto en mi tiempo libre leer sobre filosofía y psicología, pasar el rato con mis amigos y seres más cercanos y escuchar música en todo momento que me sea posible.<br />",
+    "a": "Descargar CV"
+  },
+  "tirdSection": {
+    "titulo": "HABILIDADES",
+    "cardTit1": "Rápido",
+    "cardDesc1": "Priorizar mi trabajo para entregar objetivos en el tiempo indicado.",
+    "cardTit2": "Trabajo en equipo",
+    "cardDesc2": "Buenas habilidades comunicativas y de trabajo en equipo",
+    "cardTit3": "Continuo aprendizaje",
+    "cardDesc3": "Nunca me quedo quieto, tengo un aprendizaje proactivo.",
+    "cardTit4": "Planificativo",
+    "cardDesc4": "Entrenamiento lógico y planificación del trabajo.",
+    "cardTit5": "Dúctil",
+    "cardDesc5": "Buena y rápida adaptación a los cambios.",
+    "cardTit6": "Riguroso",
+    "cardDesc6": "Los detalles transforman un trabajo mediocre en uno excepcional."
+  },
+  "fourthSection": {
+    "titulo": "Tecnologías"
+  },
+  "fifthSection": {
+    "titulo": "MIS PROYECTOS"
+  },
+  "sixthSection": {
+    "titulo": "Contacto",
+    "formName": "Nombre completo",
+    "formEmail": "Dirección de Email",
+    "formSubject": "Asunto",
+    "formMessage": "Mensaje",
+    "formSubmit": "Enviar Mensaje"
   }
 }
