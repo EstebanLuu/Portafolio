@@ -483,22 +483,29 @@ html {
 
 /*----------------------------------------------------------SECCION RESPONSIVE-------------------------------------------------------------*/
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 843px) {
+  #inicio .container header .headerContainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
   .redes {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    width: 50px;
+    width: 40px;
   }
-
   .redes a {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 12px;
+    width: 15px;
+    position: relative;
   }
   nav {
     display: none;
+    position: relative;
   }
   nav.responsive {
     display: block;
@@ -524,7 +531,7 @@ html {
   }
 
   .flags__item {
-    width: 12px;
+    width: 15px;
     cursor: pointer;
   }
   #iconoNav {
@@ -678,5 +685,16 @@ html {
     width: 100%;
     height: auto;
     cursor: pointer;
+  }
+}
+
+@media screen and (max-width: 843px) {
+  .tecno {
+    height: 135vh;
+  }
+  .tecno h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 }

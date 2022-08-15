@@ -18,7 +18,7 @@
     "cardTit1": "Fast",
     "cardDesc1": "Prioritize my work to deliver goals in the indicated time.",
     "cardTit2": "Teamwork",
-    "cardDesc2": "Good communication and teamwork skills",
+    "cardDesc2": "Good communication and teamwork skills.",
     "cardTit3": "Continuous learning",
     "cardDesc3": "I have a proactive learning.",
     "cardTit4": "Planning",
@@ -33,13 +33,5 @@
   },
   "fifthSection": {
     "titulo": "My projects"
-  },
-  "sixthSection": {
-    "titulo": "Contact",
-    "formName": "Full name",
-    "formEmail": "Email",
-    "formSubject": "Subject",
-    "formMessage": "Message",
-    "formSubmit": "Send message"
   }
 }

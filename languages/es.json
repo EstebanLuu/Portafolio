@@ -18,7 +18,7 @@
     "cardTit1": "Rápido",
     "cardDesc1": "Priorizar mi trabajo para entregar objetivos en el tiempo indicado.",
     "cardTit2": "Trabajo en equipo",
-    "cardDesc2": "Buenas habilidades comunicativas y de trabajo en equipo",
+    "cardDesc2": "Buenas habilidades comunicativas y de trabajo en equipo.",
     "cardTit3": "Continuo aprendizaje",
     "cardDesc3": "Nunca me quedo quieto, tengo un aprendizaje proactivo.",
     "cardTit4": "Planificativo",
@@ -33,13 +33,5 @@
   },
   "fifthSection": {
     "titulo": "MIS PROYECTOS"
-  },
-  "sixthSection": {
-    "titulo": "Contacto",
-    "formName": "Nombre completo",
-    "formEmail": "Dirección de Email",
-    "formSubject": "Asunto",
-    "formMessage": "Mensaje",
-    "formSubmit": "Enviar Mensaje"
   }
 }
