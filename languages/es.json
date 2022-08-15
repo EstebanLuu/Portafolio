@@ -33,5 +33,9 @@
   },
   "fifthSection": {
     "titulo": "MIS PROYECTOS"
+  },
+  "sixthSection": {
+    "titulo": "Contacto",
+    "text1": "Nombre Completo"
   }
 }
